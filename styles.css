@@ -121,3 +121,6 @@ h3 { font-size: 1.45rem; }
   .footer-grid, .footer-bottom { flex-direction: column; }.footer-grid nav { display: grid; grid-template-columns: repeat(2,1fr); }.footer-bottom { gap: 8px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } * { animation: none !important; } }
+
+/* Support and policy pages */
+.content-card h2{font-size:2rem;line-height:1.15}.product-help{display:flex;gap:24px;flex-wrap:wrap;margin-top:24px}.policy{overflow-wrap:anywhere}.policy h2{scroll-margin-top:100px}.policy p{white-space:pre-line}.text-link:focus-visible,.button:focus-visible{outline:3px solid var(--blue);outline-offset:5px}
