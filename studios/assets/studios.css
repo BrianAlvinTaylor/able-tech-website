@@ -264,11 +264,45 @@
   border-top-color: #3d7d51;
 }
 
-.series-book .series-book-status {
-  color: #4d5360;
+.series-book {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.series-book-cover {
+  display: grid;
+  place-items: center;
+  align-self: stretch;
+  margin-bottom: 19px;
+  padding: 16px;
+  border-radius: 9px;
+  background: #f1eee6;
+}
+
+.series-book-cover img {
+  display: block;
+  width: min(100%, 152px);
+  height: auto;
+  border: 1px solid #d9d4c8;
+  box-shadow: 0 3px 10px #21190f20;
+}
+
+.series-book-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 15px;
+  margin-top: auto;
+}
+
+.series-book-sample {
+  margin-top: 14px;
   font-size: .88rem;
-  font-weight: 700;
-  margin-bottom: 0;
+}
+
+.series-book-sample span {
+  font-weight: 550;
 }
 
 .series-book:target {
