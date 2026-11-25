@@ -20,3 +20,9 @@ Open `index.html` directly or serve this directory with any static web server.
 - Supply reviewed website Privacy and Terms content.
 - Confirm all product descriptions and add final App Store/support links.
 - Add the final `CNAME` file only after DNS and the GitHub Pages custom domain are ready.
+
+## ABLE Studios
+
+The series directory is in `studios/index.html`. `studios/one-little-line/index.html` has the public episode links and companion activity books.
+
+When a book is ready, add the final PDF to `studios/one-little-line/books/`. Replace its “In development” line with two links to that file, **Open and print PDF** and **Download PDF** (the latter uses the HTML `download` attribute). Keep the book card’s ID so its episode link continues to jump to the right book. Add a new episode card when its YouTube video is public.
