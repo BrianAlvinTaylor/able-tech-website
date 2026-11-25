@@ -25,4 +25,4 @@ Open `index.html` directly or serve this directory with any static web server.
 
 The series directory is in `studios/index.html`. `studios/one-little-line/index.html` has the public episode links and companion activity books.
 
-When a book is ready, add the final PDF to `studios/one-little-line/books/`. Replace its “In development” line with two links to that file, **Open and print PDF** and **Download PDF** (the latter uses the HTML `download` attribute). Keep the book card’s ID so its episode link continues to jump to the right book. Add a new episode card when its YouTube video is public.
+Keep each book PDF, cover preview, and optional single-page PDF in `studios/one-little-line/books/`. Link the full book with **Open and print PDF** and **Download PDF** (the latter uses the HTML `download` attribute). Match the book card’s ID to its episode link. Add a new episode card when its YouTube video is public.
